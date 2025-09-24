@@ -88,6 +88,8 @@ function App() {
     setMenuItems(res.data.sidenav);
   };
 
+
+  
   const getSidebarItems = () => {
     const basePath = process.env.REACT_APP_API_URL;
     let language = localStorage.getItem("language");
