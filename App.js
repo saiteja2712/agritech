@@ -68,7 +68,6 @@ function App() {
   const [footerItems, setFooterItems] = useState([]);
   const [sessionExpire, setSessionExpire] = useState(false);
   const location = useLocation();
-
   const isGenAIDCMPage = location.pathname === "/gen-ai-dcm";
 
   const getGenAiHistoryItems = () => {
