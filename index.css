@@ -11,7 +11,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 13px !important;
 }
-
 /* Page Layout */
 .saas-main-content {
   overflow-y: auto;
